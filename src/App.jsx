@@ -35,42 +35,42 @@ export function App() {
             <input
               type="button"
               value={1}
-              className="bg-dark-blue w-10.5 h-10 rounded-full text-sm text-medium-grey font-bold focus:bg-medium-grey focus:text-white"
+              className="bg-dark-blue w-10.5 h-10 rounded-full text-sm text-medium-grey font-bold focus:bg-medium-grey focus:text-white hover:bg-orange hover:text-white cursor-pointer sm:w-13 sm:h-13 transition duration-400"
               onClick={() => handleChangeRateNote(1)}
             />
             
             <input
               type="button"
               value={2}
-              className="bg-dark-blue w-10.5 h-10 rounded-full text-sm text-medium-grey font-bold focus:bg-medium-grey focus:text-white"
+              className="bg-dark-blue w-10.5 h-10 rounded-full text-sm text-medium-grey font-bold focus:bg-medium-grey focus:text-white hover:bg-orange hover:text-white cursor-pointer sm:w-13 sm:h-13 transition duration-400"
               onClick={() => handleChangeRateNote(2)}
             />
             
             <input
               type="button"
               value={3}
-              className="bg-dark-blue w-10.5 h-10 rounded-full text-sm text-medium-grey font-bold focus:bg-medium-grey focus:text-white"
+              className="bg-dark-blue w-10.5 h-10 rounded-full text-sm text-medium-grey font-bold focus:bg-medium-grey focus:text-white hover:bg-orange hover:text-white cursor-pointer sm:w-13 sm:h-13 transition duration-400"
               onClick={() => handleChangeRateNote(3)}
             />
             
             <input
               type="button"
               value={4}
-              className="bg-dark-blue w-10.5 h-10 rounded-full text-sm text-medium-grey font-bold focus:bg-medium-grey focus:text-white"
+              className="bg-dark-blue w-10.5 h-10 rounded-full text-sm text-medium-grey font-bold focus:bg-medium-grey focus:text-white hover:bg-orange hover:text-white cursor-pointer sm:w-13 sm:h-13 transition duration-400"
               onClick={() => handleChangeRateNote(4)}
             />
             
             <input
               type="button"
               value={5}
-              className="bg-dark-blue w-10.5 h-10 rounded-full text-sm text-medium-grey font-bold focus:bg-medium-grey focus:text-white"
+              className="bg-dark-blue w-10.5 h-10 rounded-full text-sm text-medium-grey font-bold focus:bg-medium-grey focus:text-white hover:bg-orange hover:text-white cursor-pointer sm:w-13 sm:h-13 transition duration-400"
               onClick={() => handleChangeRateNote(5)}
             />
             
           </div>
           <button
-            className="bg-orange w-full py-3 rounded-3xl uppercase font-bold tracking-1"
-            onClick={handleSubmit} // Corrigido aqui
+            className="bg-orange w-full py-3 rounded-3xl uppercase font-bold tracking-1 hover:bg-white hover:text-orange cursor-pointer  transition duration-400"
+            onClick={handleSubmit} 
           >
             Prosseguir
           </button>
@@ -82,7 +82,7 @@ export function App() {
           <p className="mb-6 text-orange bg-dark-blue w-fit mx-auto px-3 py-1.25 rounded-3xl">Voçê selecionou {rateNote} de 5!</p>
 
           <h1 className="font-bold text-2xl mb-2.5">Muito Obrigado!</h1>
-          <p className="text-light-grey text-sm leading-1">
+          <p className="text-light-grey text-sm leading-1 hover:bg">
           Agradecemos por dedicar seu tempo para avaliar. Se precisar de mais suporte, não hesite em entrar em contato!
           </p>
 
